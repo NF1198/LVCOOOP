@@ -15,5 +15,6 @@ The Lookup API is depenency mangament pattern that allows you to inject instance
 3) Build the `LVCOOP - user.lib` source distribution
 
 
-* LabVIEW is a trademark of National Instruments Corporation
+
+\* *LabVIEW is a trademark of National Instruments Corporation*
 
