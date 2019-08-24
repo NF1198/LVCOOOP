@@ -4,7 +4,7 @@ LVCOOP is a set of common objects that support building robust object oriented a
 
 ## Lookup API
 
-The Lookup API is depenency mangament pattern that allows you to inject instances of objects into your application at runtime instead of hard-coding them throughout your application. This is a powerful tool that supports building modular, reusable, and testable code.
+The Lookup API is depenency mangament service that allows you to inject instances of objects into your application at runtime instead of hard-coding them throughout your application. This is a powerful tool that supports building modular, reusable, and testable code.
 
 ## How to install
 
