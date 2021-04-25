@@ -11,4 +11,5 @@
 		<Item Name="Global Lookup.vi" Type="VI" URL="../Lookup API/Global Lookup.vi"/>
 		<Item Name="Test Lookup API.vi" Type="VI" URL="../Lookup API/Test Lookup API.vi"/>
 	</Item>
+	<Item Name="State Machine API.lvlib" Type="Library" URL="../State Machine API/State Machine API.lvlib"/>
 </Library>

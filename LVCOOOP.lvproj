@@ -16,7 +16,11 @@
 		<Item Name="LVCOOOP.lvlib" Type="Library" URL="../LVCOOOP/LVCOOOP.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -28,16 +32,17 @@
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/14.0</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
-				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/19.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/BobUser/Documents/LabVIEW Data/2019(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">user.lib/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2AA1E9BD-0EBF-4EBC-830D-60BA555BE003}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">user.lib/NI_AB_PROJECTNAME</Property>
@@ -47,7 +52,7 @@
 				<Property Name="Destination[1].path" Type="Path">user.lib/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{23D14203-9F89-458A-A25C-D0897EEE9E92}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C2E60A4E-1C41-4978-9B22-282DFDE789FF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVCOOOP.lvlib</Property>
@@ -64,7 +69,7 @@
 				<Property Name="DestinationItemCount" Type="Int">1</Property>
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
 				<Property Name="IncludedItemCount" Type="Int">1</Property>
-				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/Build Specifications/LVCOOOP - user.lib</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/LVCOOOP.lvlib</Property>
 				<Property Name="IncludeProject" Type="Bool">false</Property>
 				<Property Name="Path[0]" Type="Path">../../builds/LVCOOOP/LVCOOOP.zip</Property>
 				<Property Name="ZipBase" Type="Str">LVCOOOP</Property>

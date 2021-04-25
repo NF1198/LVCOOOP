@@ -2,6 +2,7 @@
 <Library LVVersion="19008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">LVCOOOP.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../LVCOOOP.lvlib</Property>
+	<Property Name="NI.Lib.DefaultMenu" Type="Str">LookupAPI.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Copyright 2019 Nicholas Folse; tauTerra, LLC
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
