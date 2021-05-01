@@ -21,7 +21,9 @@ Copyright (2019) Nicholas Folse; tauTerra, LLC</Property>
 	</Item>
 	<Item Name="Util" Type="Folder">
 		<Item Name="Clear Errors.vi" Type="VI" URL="../Util/Clear Errors.vi"/>
+		<Item Name="Timestamp or now.vi" Type="VI" URL="../Util/Timestamp or now.vi"/>
 	</Item>
 	<Item Name="Lookup API.lvlib" Type="Library" URL="../Lookup API/Lookup API.lvlib"/>
 	<Item Name="State Machine API.lvlib" Type="Library" URL="../State Machine API/State Machine API.lvlib"/>
+	<Item Name="Support API.lvlib" Type="Library" URL="../Support API/Support API.lvlib"/>
 </Library>
