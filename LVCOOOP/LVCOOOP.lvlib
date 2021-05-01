@@ -25,5 +25,5 @@ Copyright (2019) Nicholas Folse; tauTerra, LLC</Property>
 	</Item>
 	<Item Name="Lookup API.lvlib" Type="Library" URL="../Lookup API/Lookup API.lvlib"/>
 	<Item Name="State Machine API.lvlib" Type="Library" URL="../State Machine API/State Machine API.lvlib"/>
-	<Item Name="Support API.lvlib" Type="Library" URL="../Support API/Support API.lvlib"/>
+	<Item Name="Utility API.lvlib" Type="Library" URL="../Utility API/Utility API.lvlib"/>
 </Library>

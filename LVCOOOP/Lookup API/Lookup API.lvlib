@@ -33,4 +33,5 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 		</Item>
 		<Item Name="Lookup Service.lvclass" Type="LVClass" URL="../Services/Lookup Service/Lookup Service.lvclass"/>
 	</Item>
+	<Item Name="resources" Type="Folder"/>
 </Library>

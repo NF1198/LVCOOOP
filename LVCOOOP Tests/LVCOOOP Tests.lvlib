@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Lookup API" Type="Folder">
 		<Item Name="Base Class A.lvclass" Type="LVClass" URL="../Lookup API/Base Class A.lvclass"/>
 		<Item Name="Class B.lvclass" Type="LVClass" URL="../Lookup API/Class B.lvclass"/>
@@ -11,9 +12,9 @@
 		<Item Name="Global Lookup.vi" Type="VI" URL="../Lookup API/Global Lookup.vi"/>
 		<Item Name="Test Lookup API.vi" Type="VI" URL="../Lookup API/Test Lookup API.vi"/>
 	</Item>
-	<Item Name="Support API" Type="Folder">
+	<Item Name="Utility API" Type="Folder">
+		<Item Name="Test NIErrLog Log Provider.vi" Type="VI" URL="../Support API/Test NIErrLog Log Provider.vi"/>
 		<Item Name="Test Queue Log Provider.vi" Type="VI" URL="../Support API/Test Queue Log Provider.vi"/>
 	</Item>
 	<Item Name="State Machine API.lvlib" Type="Library" URL="../State Machine API/State Machine API.lvlib"/>
-	<Item Name="Test NIErrLog Log Provider.vi" Type="VI" URL="../Support API/Test NIErrLog Log Provider.vi"/>
 </Library>
