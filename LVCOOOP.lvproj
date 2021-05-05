@@ -32,6 +32,9 @@
 				<Item Name="NIErrLog Log Provider.lvclass" Type="LVClass" URL="../LVCOOOP/Utility API/NIErrLog Log Provider/NIErrLog Log Provider.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="project support" Type="Folder">
+			<Item Name="reset revision history.vi" Type="VI" URL="../project support/reset revision history.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Assert Error Cluster Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Error Cluster Type.vim"/>
@@ -67,9 +70,10 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_localDestDir" Type="Path">user.lib/LVCOOP</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/project support/reset revision history.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2AA1E9BD-0EBF-4EBC-830D-60BA555BE003}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">user.lib/LVCOOP</Property>
@@ -79,7 +83,7 @@
 				<Property Name="Destination[1].path" Type="Path">user.lib/LVCOOP/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3CFF7FE1-C6A0-4671-8F42-1B9603ED18FE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C6A147A8-5355-41DB-A3DF-0D99A8A22258}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVCOOP Providers/Utility API/NIErrLog Log Provider.lvclass</Property>
