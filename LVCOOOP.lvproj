@@ -60,7 +60,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">user.lib/LVCOOP</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2AA1E9BD-0EBF-4EBC-830D-60BA555BE003}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">user.lib/LVCOOP</Property>
@@ -70,12 +71,13 @@
 				<Property Name="Destination[1].path" Type="Path">user.lib/LVCOOP/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{64E8D24C-6EFC-400D-AD54-57C2EF0CF529}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3CFF7FE1-C6A0-4671-8F42-1B9603ED18FE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVCOOP Providers/Utility API/NIErrLog Log Provider.lvclass</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVCOOP</Property>
