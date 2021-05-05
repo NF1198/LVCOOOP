@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="19008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">LVCOOOP.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../LVCOOOP.lvlib</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">LookupAPI.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Copyright 2019 Nicholas Folse; tauTerra, LLC
 
@@ -33,5 +31,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 		</Item>
 		<Item Name="Lookup Service.lvclass" Type="LVClass" URL="../Services/Lookup Service/Lookup Service.lvclass"/>
 	</Item>
-	<Item Name="resources" Type="Folder"/>
+	<Item Name="resources" Type="Folder">
+		<Item Name="LookupAPI.mnu" Type="Document" URL="../../resources/LookupAPI.mnu"/>
+	</Item>
 </Library>

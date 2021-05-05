@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="19008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">LVCOOOP.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../LVCOOOP.lvlib</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">State Machine API.mnu</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*+!!!*Q(C=\&gt;5R&lt;NN!%)8BF]"&amp;7NUA%O!4T"6YB/A'Q;2*L^:O%F;J$!24JN56&gt;)7ZAK[A+DXT\WL)W%VE)$&lt;MQK28JN\OTHYG&amp;\45DQ`3F;:,R`5`D]@VNT,N9KKEFZW7`PFK7PL&lt;TX2``DF9OB\/PZ[(HUP05``7HY=`,0VY```U8TDU&gt;LQ&gt;,XP=8.SET\ZHX[G^C'B*#ZL44'WJ+=G40-G40-G40-C$0-C$0-C$X-G&gt;X-G&gt;X-G&gt;X-C.X-C.X-C.P*`E)B?ZS#%FCS=,*574!MFA+%I_%E`C34S*B[^+0)EH]33?R--1*:\%EXA34_*BGB*0YEE]C3@R5+J,MJ`E?")0Z26Y!E`A#4S"BS56?!*!M&amp;B1/#A#1U&amp;H="&amp;Y!E`AY6+"*`!%HM!4?/B7Y!E]A3@Q""[G^,M38&gt;./=DS5E?.R0)\(]4A?3MPR/"\(YXA=$]P*]4A?"_%M["3()'?3-]$ZYHA=$\`E?"S0YX%]DI?O`I3]XZGG;3=Z(M.D?!S0Y4%]F*$B-4S'R`!9(ML+]"A?QW.Y$!^,S@!9(M.D1)R&amp;76Z'-7/C-=A)$!]`@&lt;&gt;9@UL2*&gt;:0K4;P;F/K.JNK%[EWB_KBKR[G[C'J&lt;L\KJKJOFOIGK0YY&amp;6K&amp;53WCGNQ'[M4HE8;A\7ED&lt;5@&lt;UA&lt;;BL:K5Z^YY/FUUP&amp;YV/&amp;QU([`VTC/WOVWWG[X'I:"G]V'K^6K?1V]Z&amp;R?#/@XUAX8L8U@PKT(LZ^`@@PU=XU\`&amp;\`'/\7=V^LT`3`^"7]'`6?^_NSD`Y!.X;"QA!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>

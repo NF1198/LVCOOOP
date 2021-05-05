@@ -12,8 +12,27 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="LVCOOP" Type="Folder">
+			<Item Name="license" Type="Folder">
+				<Item Name="license.txt" Type="Document" URL="../../license.txt"/>
+			</Item>
+			<Item Name="resources" Type="Folder">
+				<Item Name="LVCOOOP.mnu" Type="Document" URL="../../LVCOOOP/resources/LVCOOOP.mnu"/>
+			</Item>
+			<Item Name="Util" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../LVCOOOP/Util/Clear Errors.vi"/>
+				<Item Name="Timestamp or now.vi" Type="VI" URL="../../LVCOOOP/Util/Timestamp or now.vi"/>
+			</Item>
+			<Item Name="Lookup API.lvlib" Type="Library" URL="../../LVCOOOP/Lookup API/Lookup API.lvlib"/>
+			<Item Name="State Machine API.lvlib" Type="Library" URL="../../LVCOOOP/State Machine API/State Machine API.lvlib"/>
+			<Item Name="Utility API.lvlib" Type="Library" URL="../../LVCOOOP/Utility API/Utility API.lvlib"/>
+		</Item>
+		<Item Name="LVCOOP Providers" Type="Folder">
+			<Item Name="Utility API" Type="Folder">
+				<Item Name="NIErrLog Log Provider.lvclass" Type="LVClass" URL="../../LVCOOOP/Utility API/NIErrLog Log Provider/NIErrLog Log Provider.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="LVCOOOP Tests.lvlib" Type="Library" URL="../LVCOOOP Tests.lvlib"/>
-		<Item Name="LVCOOOP.lvlib" Type="Library" URL="../../LVCOOOP/LVCOOOP.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

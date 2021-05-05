@@ -13,7 +13,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LVCOOOP.lvlib" Type="Library" URL="../LVCOOOP/LVCOOOP.lvlib"/>
+		<Item Name="LVCOOP" Type="Folder">
+			<Item Name="resources" Type="Folder">
+				<Item Name="LVCOOOP.mnu" Type="Document" URL="../LVCOOOP/LVCOOOP.mnu"/>
+			</Item>
+			<Item Name="Lookup API.lvlib" Type="Library" URL="../LVCOOOP/Lookup API/Lookup API.lvlib"/>
+			<Item Name="State Machine API.lvlib" Type="Library" URL="../LVCOOOP/State Machine API/State Machine API.lvlib"/>
+			<Item Name="Utility API.lvlib" Type="Library" URL="../LVCOOOP/Utility API/Utility API.lvlib"/>
+		</Item>
+		<Item Name="LVCOOP Providers" Type="Folder">
+			<Item Name="Utility API" Type="Folder">
+				<Item Name="NIErrLog Log Provider.lvclass" Type="LVClass" URL="../LVCOOOP/Utility API/NIErrLog Log Provider/NIErrLog Log Provider.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -27,6 +39,7 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Timestamp or now.vi" Type="VI" URL="../LVCOOOP/Util/Timestamp or now.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LVCOOOP - user.lib" Type="Source Distribution">
@@ -47,7 +60,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">user.lib/LVCOOP</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2AA1E9BD-0EBF-4EBC-830D-60BA555BE003}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">user.lib/LVCOOP</Property>
@@ -57,16 +70,29 @@
 				<Property Name="Destination[1].path" Type="Path">user.lib/LVCOOP/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3337611A-48FC-4E4F-AF12-F7D11D5D2673}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{64E8D24C-6EFC-400D-AD54-57C2EF0CF529}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVCOOOP.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVCOOP Providers/Utility API/NIErrLog Log Provider.lvclass</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVCOOOP.lvlib/license/license.txt</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVCOOP</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVCOOP Providers</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVCOOP/resources/LVCOOOP.mnu</Property>
+				<Property Name="Source[4].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[4].newName" Type="Str">dir.mnu</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 			<Item Name="LVCOOOP - zip" Type="Zip File">
 				<Property Name="Absolute[0]" Type="Bool">false</Property>
@@ -76,7 +102,7 @@
 				<Property Name="DestinationItemCount" Type="Int">1</Property>
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
 				<Property Name="IncludedItemCount" Type="Int">1</Property>
-				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/LVCOOOP.lvlib</Property>
+				<Property Name="IncludedItems[0]" Type="Ref"></Property>
 				<Property Name="IncludeProject" Type="Bool">false</Property>
 				<Property Name="Path[0]" Type="Path">../../builds/LVCOOOP/LVCOOOP.zip</Property>
 				<Property Name="ZipBase" Type="Str">LVCOOOP</Property>
