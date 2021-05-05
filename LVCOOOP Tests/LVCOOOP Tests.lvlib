@@ -16,5 +16,8 @@
 		<Item Name="Test NIErrLog Log Provider.vi" Type="VI" URL="../Support API/Test NIErrLog Log Provider.vi"/>
 		<Item Name="Test Queue Log Provider.vi" Type="VI" URL="../Support API/Test Queue Log Provider.vi"/>
 	</Item>
+	<Item Name="Util" Type="Folder">
+		<Item Name="test get from map as type.vi" Type="VI" URL="../Util/test get from map as type.vi"/>
+	</Item>
 	<Item Name="State Machine API.lvlib" Type="Library" URL="../State Machine API/State Machine API.lvlib"/>
 </Library>

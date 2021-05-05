@@ -20,7 +20,9 @@
 				<Item Name="LVCOOOP.mnu" Type="Document" URL="../../LVCOOOP/resources/LVCOOOP.mnu"/>
 			</Item>
 			<Item Name="Util" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../LVCOOOP/Util/Clear Errors.vi"/>
+				<Item Name="Clear Errors - Ext.vi" Type="VI" URL="../../LVCOOOP/Util/Clear Errors - Ext.vi"/>
+				<Item Name="Get From Map As Type.vim" Type="VI" URL="../../LVCOOOP/Util/Get From Map As Type.vim"/>
+				<Item Name="Open VI Reference.vim" Type="VI" URL="../../LVCOOOP/Util/Open VI Reference.vim"/>
 				<Item Name="Timestamp or now.vi" Type="VI" URL="../../LVCOOOP/Util/Timestamp or now.vi"/>
 			</Item>
 			<Item Name="Lookup API.lvlib" Type="Library" URL="../../LVCOOOP/Lookup API/Lookup API.lvlib"/>
@@ -35,6 +37,9 @@
 		<Item Name="LVCOOOP Tests.lvlib" Type="Library" URL="../LVCOOOP Tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Assert Error Cluster Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Error Cluster Type.vim"/>
+				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
+				<Item Name="Assert Real Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Real Floating-Point Numeric Type.vim"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
