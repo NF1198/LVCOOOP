@@ -73,7 +73,7 @@
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/project support/reset revision history.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2AA1E9BD-0EBF-4EBC-830D-60BA555BE003}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">user.lib/LVCOOP</Property>
